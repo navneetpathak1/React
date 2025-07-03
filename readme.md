@@ -202,4 +202,45 @@ In **useEffect** - if no dependency array then useEffect is called every re-rend
 2. Client side routing
 
 
+---
 
+# Optimizing our App
+
+## custom hooks
+
+---
+
+## addEventListener version
+```bash
+window.addEventListener("offline", (event) => {
+  console.log("The network connection has been lost.");
+});
+```
+---
+ 
+- Chunking
+- Code Splitting
+- Dynamic Bundling
+- lazy loading
+- on demand loading
+- dynamic import
+```
+lazy
+Suspense
+```
+
+---
+## Styling React
+- plain css
+- Sass
+- styled components
+- material ui
+- bootstrap 
+- tailwind css 
+
+---
+
+## Higher-Order Components
+---
+### Accordion features
+---
