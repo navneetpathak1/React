@@ -241,6 +241,25 @@ Suspense
 ---
 
 ## Higher-Order Components
+- Controlled and uncontrolled components
 ---
 ### Accordion features
 ---
+## Lifting State Up
+---
+## Prop drilling
+## createContext
+## useContext
+## .Provider
+## .consumer
+---
+
+# zustand
+# Redux
+# Redux Toolkit
+---
+## Redux ToolKit
+
+```
+When you click on the button, it dispatches the action, which calls the reducer function that updates the slice of Redux Toolkit state.
+```
