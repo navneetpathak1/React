@@ -245,3 +245,95 @@ Suspense
 ---
 ### Accordion features
 ---
+
+## Lifting State Up
+---
+## Prop drilling
+## createContext
+## useContext
+## .Provider
+## .consumer
+---
+
+# zustand
+# Redux
+# Redux Toolkit
+---
+## Redux ToolKit
+
+```
+When you click on the button, it dispatches the action, which calls the reducer function that updates the slice of Redux Toolkit state.
+In order to access it subscribe to the store using a selector
+```
+```bash
+npm i @reduxjs/toolkit
+npm i react-redux
+```
+
+Some jargons
+- ***configureStore***
+- ***provider***
+- ***createSlice***
+- ***useSelector***
+- ***useDispatch***
+- ***Immer***
+- ***Redux toolkit***
+- ***RTK Query***
+
+
+---
+
+# Testing
+## Types of Testing in Web Applications
+1. Unit Testing
+2. Integration Testing
+3. End-to-End (E2E)
+
+---
+## React Testing Library
+```bash
+npm install --save-dev @testing-library/react @testing-library/dom
+```
+
+## jest
+```bash
+npm install --save-dev jest
+npm install --save-dev babel-jest @babel/core @babel/preset-env
+```
+In root make babel.config.js and past it
+```bash
+module.exports = {
+  presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
+};
+```
+
+**remove conflict** [link](https://parceljs.org/languages/javascript/#babel) configure parcel to disable default babel transpilation
+**jest configuration**
+```
+npx create-jest
+```
+**jsdom** -> yes for coverage report -> babel -> yes for clear...
+
+## install jsdom using ***npm install --save-dev jest-environment-jsdom***
+## install ***@babel/preset-react*** to make jsx work in test case
+## install @testing-library/jest-dom
+---
+
+
+- make __tests__ folder
+- file must be like
+  - header.test.js
+  - header.test.ts
+  - header.spec.js
+  - header.spec.ts
+
+_ _  = Dunder
+
+
+---
+
+## Form validation in react use ***Formik***
+
+---
+***useRef***
+***memoization***
